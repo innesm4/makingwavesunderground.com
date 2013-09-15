@@ -5,6 +5,7 @@ body {
   background: url(../img/layer1.png);
   background-repeat:repeat;
   background-size:cover;
+  font-family: 'Didact Gothic', sans-serif;
 }
 
 hr { display: block; height: 1px;
@@ -14,12 +15,24 @@ hr { display: block; height: 1px;
 div.abouttext *
  { color: #34E0C2; display: block; float: left; font-size: 16px;  }
 
+p { display: block; float: left; font-size: 14px; margin: 5px 5px 0 0; padding: 0 20px; 
+}
+
 
 div.tag *
- { background: #34E0C2; color: #fff; display: block; float: left; font-size: 14px; line-height: 40px; margin: 5px 5px 0 0; padding: 0 20px; }
+ { 
+  background: #34E0C2; color: #fff; display: block; float: left; font-size: 16px; line-height: 40px; margin: 5px 5px 0 0; padding: 0 20px; 
+}
 
-nav a { background: #34E0C2; color: #fff; display: block; float: left; font-size: 14px; line-height: 40px; margin: 5px 5px 0 0; padding: 0 20px; }
+nav a { background: #34E0C2; color: #fff; display: block; float: left; font-size: 16px; line-height: 40px; margin: 5px 5px 0 0; padding: 0 20px; }
 nav a:hover { background: #000; text-decoration: none; color: #fff; }
+
+nav a.inactive{
+  background: #000;
+}
+a:hover.inactive{
+   background: #34E0C2;
+}
 
 @media screen and (max-width: 740px) {
 nav a { float: none; margin: 0 0 1px 0; width: 100%;  padding: 0 20px; }
