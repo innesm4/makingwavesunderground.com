@@ -1,10 +1,16 @@
 body {
-  background: #111;
-  opacity: 0.9;
-  
-  content: "";
+  opacity: 1;
+  background: url(../img/layer1.png);
+  background-repeat:repeat;
+  background-size:cover;
 }
 
+div.abouttext *
+ { color: #34E0C2; display: block; float: left; font-size: 16px;  }
+
+
+div.tag *
+ { background: #34E0C2; color: #fff; display: block; float: left; font-size: 16px; line-height: 40px; margin: 5px 5px 0 0; padding: 0 20px; }
 
 nav a { background: #34E0C2; color: #fff; display: block; float: left; font-size: 16px; line-height: 40px; margin: 5px 5px 0 0; padding: 0 20px; }
 nav a:hover { background: #000; color: #fff; }
@@ -14,7 +20,7 @@ nav a { float: none; margin: 0 0 1px 0; width: 100%;  padding: 0 20px; }
 }
 
 .scene {
-  max-width: 300px;
+  max-width: 280px;
   margin: 0 auto;
   padding: 0;
 }
