@@ -1,0 +1,55 @@
+body {
+  background: #111;
+  opacity: 0.9;
+  
+  content: "";
+}
+
+
+nav a { background: #34E0C2; color: #fff; display: block; float: left; font-size: 16px; line-height: 40px; margin: 5px 5px 0 0; padding: 0 20px; }
+nav a:hover { background: #000; color: #fff; }
+
+@media screen and (max-width: 740px) {
+nav a { float: none; margin: 0 0 1px 0; width: 100%;  padding: 0 20px; }
+}
+
+.scene {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.fb
+{
+  z-index:100;
+  position:fixed;
+  padding-top:10px;
+}
+
+.layer:nth-child(1) {
+  opacity: 0.15;
+}
+.layer:nth-child(2) {
+  opacity: 0.30;
+}
+.layer:nth-child(3) {
+  opacity: 0.45;
+}
+.layer:nth-child(4) {
+  opacity: 0.60;
+}
+.layer:nth-child(5) {
+  opacity: 0.75;
+}
+.layer:nth-child(6) {
+  opacity: 0.90;
+}
+
+.container-narrow {
+  margin: 0 auto;
+  max-width: 740px;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
